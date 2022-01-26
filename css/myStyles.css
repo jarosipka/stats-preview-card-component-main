@@ -1,34 +1,79 @@
 body{
     background-color: hsl(233, 47%, 7%);
+    font-family: 'Lexend Deca', 'Inter' , sans-serif;
 }
 
-#heading{
-    font-size: 50px;
-    padding-left: 20px;
-    padding-right: 30px;
-    color: hsl(0, 0%, 100%);
+h1{
+    font-size: 40px;
+    padding-right: 100px;
+    padding-left: 150px;
 }
 
-#slogan{
+
+
+h1 span {
+    color:hsl(277, 64%, 61%)
+}
+p{
     color: hsla(0, 0%, 100%, 0.75);
+    font-size: 18px;
+    padding-right: 160px;
+    padding-left: 150px;
 }
-
-
-
-
 #mainWrapper{
-    background-color:hsl(244, 38%, 16%);
+    background-color:hsl(244, 38%, 16%); 
     width: 1440px;
     height: 447px;
-    margin:auto;
-   }
+    margin: auto;
+    margin-top: 230px;
+    }
+
+#mainWrapper img{
+    filter: grayscale(10%) brightness(40%) sepia(100%) hue-rotate(-130deg) saturate(500%) contrast(0.7);
+
+    }
 
 
-
-
-#stats{
+#aboutUs{
+   
+    width: 720px;
     color: hsl(0, 0%, 100%);
 }
+
+
+
+
+
+
+
+
+table {
+    padding-top: 50px;
+    padding-left: 100px;
+    width:560px;
+}
+
+
+
+
+  th, td {
+    padding: 2px;
+  }
+
+#numbers{
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+}
+
+#upper{
+    color: hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+
+
 
 
 .floatLeft{
