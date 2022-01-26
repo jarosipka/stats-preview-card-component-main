@@ -1,0 +1,50 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+
+#heading{
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 30px;
+    color: hsl(0, 0%, 100%);
+}
+
+#slogan{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+
+#mainWrapper{
+    background-color:hsl(244, 38%, 16%);
+    width: 1440px;
+    height: 447px;
+    margin:auto;
+   }
+
+
+
+
+#stats{
+    color: hsl(0, 0%, 100%);
+}
+
+
+.floatLeft{
+    float: left;
+}
+
+.floatRight{
+    float: right;
+}
+
+.clearFix{
+    clear: both;
+}
+
+
+
+
+ 
+    
